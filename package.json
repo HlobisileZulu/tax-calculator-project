@@ -2,9 +2,13 @@
   "name": "tax-calculator",
   "version": "1.0.0",
   "scripts": {
+    "start": "node server.js",
     "test": "jasmine"
   },
   "devDependencies": {
     "jasmine": "^5.1.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
